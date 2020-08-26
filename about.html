@@ -102,9 +102,6 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img src="assets/img/modulo ordine.PNG" class="img-fluid" alt="">
-                    </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <h3>Modulo d'ordine.</h3>
                         <p class="font-italic">
@@ -114,91 +111,112 @@
                             <li><i class="icofont-check-circled"></i>Stampare il modulo che vedete in questa pagina compilato in ogni sua parte.</li>
                             <li><i class="icofont-check-circled"></i>Inviare la copia compilata a tes.federtex@gmail.com.</li>
                             <li><i class="icofont-check-circled"></i>Se non volete utilizzarre la mail, potete inviare il modulo compilato via fax al +39 059 672 165.</li>
+                            <li><i class="icofont-check-circled"></i>Potete anche compilare i campi della tabella che segue e premere "INVIO". La vostra richiesta verra' inviata via mail a Federtex con tutti i campi compilati.</li>
                         </ul>
                     </div>
+                    <div class="col-lg-6">
+                        <img src="assets/img/modulo ordine.PNG" class="img-fluid" alt="">
+                    </div>
+
                 </div>
 
             </div>
-        </section><!-- End About Section -->
+        </section> <!-- End About Section-->
 
-        <form name="parere" action="mailto:tes.federtex@gmail.com" method="post" enctype="text/plain">
-            <table border="0" cellspacing="5" cellpadding="5">
-                <tr>
-                    <td>KIT numero:</td>
-                    <td><input type="text" name="nome" size="35" maxlength="40" value=""></td>
-                </tr>
-                <tr>
-                    <td>articolo:</td>
-                    <td><input type="text" name="email" size="35" maxlength="40" value=""></td>
-                </tr>
-                <tr>
-                    <td>quantita':</td>
-                    <td><input type="text" name="email" size="35" maxlength="40" value=""></td>
-                </tr>
-                <tr>
-                    <td>prezzo:</td>
-                    <td><input type="text" name="email" size="35" maxlength="40" value=""></td>
-                </tr>
-                <tr>
-                    <td valign="middle">PERSONALIZZAZIONI</td>
-                    <td><textarea name="commento" rows="4" cols="30"></textarea></td>
-                </tr>
-                <tr>
-                    <td>CONSEGNA:</td>
-                    <td>
-                        <select name="come sei arrivato">
-                            <option selected>indirizzo del KIT</option>
-                            <option>altro indirizzo</option>
-                        </select>
-                        <br>
-                <tr>
-                    <td>indirizzo se diverso dal KIT:</td>
-                    <td><input type="text" name="email" size="35" maxlength="40" value=""></td>
-                </tr>
-                </td>
-                </tr>
 
-                <tr>
-                    <td>seleziona lo sfondo</td>
-                    <td>
-                        <hr width="50%" align="left">
-                        <input type=radio name="giudizio" value="PIED_DE_POULE">&nbsp;PIED DE POULE<br>
-                        <input type=radio name="giudizio" value="FIORI">&nbsp;FIORI<br>
-                        <input type=radio name="giudizio" value="STELLE">&nbsp;STELLE<br>
-                        <input type=radio name="giudizio" value="POIS">&nbsp;POIS<br>
-                        <input type=radio name="giudizio" value="ORSETTI">&nbsp;ORSETTI<br>
-                        <input type=radio name="giudizio" value="GIOCATTOLI">&nbsp;GIOCATTOLI<br>
-                        <input type=radio name="giudizio" value="ANIMALI">&nbsp;ANIMALI&nbsp;
-                        <hr width="50%" align="left">
-                    </td>
-                </tr>
-                <tr>
-                    <td>ARTICOLO</td>
-                    <td>
-                        <hr width="50%" align="left">
-                        <input type=radio name="giudizio" value="2001">&nbsp;2001<br>
-                        <input type=radio name="giudizio" value="2002">&nbsp;2002<br>
-                        <input type=radio name="giudizio" value="2003">&nbsp;2003<br>
-                        <hr width="50%" align="left">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Font per le scritte</td>
-                    <td>
-                        <hr width="50%" align="left">
-                        <input type=radio name="eta" value="CORSIVO">&nbsp;CORSIVO<br>
-                        <input type=radio name="eta" value="STAMPATELLO">&nbsp;STAMPATELLO<br>
-                        <hr width="50%" align="left">
-                    </td>
-                </tr>
-                <td>CONSEGNA: 15GG TRASPORTO: GRATIS<br>BANCA: IBAN IT61Z0301503200000006043781</td>
-                <tr>
-                    <td></td>
-                    <td><input type=submit value="Invia i Dati"><input type=reset value="Annulla"></td>
-                </tr>
-            </table>
-        </form>
+        <div class="container">
 
+            <div class="row">
+
+                <div class="col-lg-6 pt-4 pt-lg-0">
+
+                    <h3>Modulo d'ordine automatizzato.</h3>
+                    <div style="width: 250px; height: 150px;">
+                        <img src="assets/img/logo_Federtex.PNG" width="100%" height="100%">
+                    </div>
+
+
+                    <form name="parere" action="mailto:sgarbi@tsnet.it" method="post" enctype="text/plain">
+                        <table border="0" cellspacing="5" cellpadding="5">
+                            <tr>
+                                <td>KIT numero:</td>
+                                <td><input type="text" name="Kit numero" size="35" maxlength="40" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>articolo:</td>
+                                <td><input type="text" name="Articolo" size="35" maxlength="40" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>quantita':</td>
+                                <td><input type="text" name="Quantita" size="35" maxlength="40" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>prezzo:</td>
+                                <td><input type="text" name="Prezzo" size="35" maxlength="40" value=""></td>
+                            </tr>
+                            <tr>
+                                <td valign="middle">PERSONALIZZAZIONI</td>
+                                <td><textarea name="personalizzazioni" rows="4" cols="30"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>CONSEGNA:</td>
+                                <td>
+                                    <select name="Consegna">
+                                        <option selected>indirizzo del KIT</option>
+                                        <option>altro indirizzo</option>
+                                    </select>
+                                    <br>
+                            <tr>
+                                <td>indirizzo se diverso dal KIT:</td>
+                                <td><input type="text" name="altro indirizzo se diverso da indirizzo Kit" size="35" maxlength="40" value=""></td>
+                            </tr>
+                            </td>
+                            </tr>
+
+                            <tr>
+                                <td>seleziona lo sfondo</td>
+                                <td>
+                                    <hr width="50%" align="left">
+                                    <input type=radio name="sfondo" value="PIED_DE_POULE">&nbsp;PIED DE POULE<br>
+                                    <input type=radio name="sfondo" value="FIORI">&nbsp;FIORI<br>
+                                    <input type=radio name="sfondo" value="STELLE">&nbsp;STELLE<br>
+                                    <input type=radio name="sfondo" value="POIS">&nbsp;POIS<br>
+                                    <input type=radio name="sfondo" value="ORSETTI">&nbsp;ORSETTI<br>
+                                    <input type=radio name="sfondo" value="GIOCATTOLI">&nbsp;GIOCATTOLI<br>
+                                    <input type=radio name="sfondo" value="ANIMALI">&nbsp;ANIMALI&nbsp;
+                                    <hr width="50%" align="left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ARTICOLO</td>
+                                <td>
+                                    <hr width="50%" align="left">
+                                    <input type=radio name="articolo" value="2001">&nbsp;2001<br>
+                                    <input type=radio name="articolo" value="2002">&nbsp;2002<br>
+                                    <input type=radio name="articolo" value="2003">&nbsp;2003<br>
+                                    <hr width="50%" align="left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Font per le scritte</td>
+                                <td>
+                                    <hr width="50%" align="left">
+                                    <input type=radio name="font per scritte" value="CORSIVO">&nbsp;CORSIVO<br>
+                                    <input type=radio name="font per scritte" value="STAMPATELLO">&nbsp;STAMPATELLO<br>
+                                    <hr width="50%" align="left">
+                                </td>
+                            </tr>
+                            <td>CONSEGNA: 15GG TRASPORTO: GRATIS<br>BANCA: IBAN IT61Z0301503200000006043781</td>
+                            <tr>
+                                <td></td>
+                                <td><input type=submit value="Invia i Dati"><input type=reset value="Annulla"></td>
+                            </tr>
+                        </table>
+                    </form>
+
+                </div>
+            </div>
+        </div>
 
 
         <!-- ======= Footer ======= -->
