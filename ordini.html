@@ -51,7 +51,7 @@
             <nav class="nav-menu float-right d-none d-lg-block">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about.html">Modulo Ordini</a></li>
+                    <li class="active"><a href="ordini.html">Modulo Ordini</a></li>
                     <!-- <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="team.html">Team</a></li>
@@ -87,41 +87,22 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Modulo da utilizzare per ordini</h2>
                     <ol>
                         <li><a href="index.html">Home</a></li>
-                        <li>Modulo Ordini</li>
+                        <li>Ordini</li>
                     </ol>
+                    <!--  <h2>Ordinare una coperta</h2>
+  <h3>Modulo d'ordine</h3>
+  <p class="font-italic">
+      Da utilizzare per richiedere una coperta.
+  </p>-->
+
                 </div>
 
             </div>
         </section><!-- End About Us Section -->
 
-        <!-- ======= About Section ======= -->
-        <section class="about" data-aos="fade-up">
-            <div class="container">
 
-                <div class="row">
-                    <div class="col-lg-6 pt-4 pt-lg-0">
-                        <h3>Modulo d'ordine.</h3>
-                        <p class="font-italic">
-                            Da utilizzare per richiedere una coperta.
-                        </p>
-                        <ul>
-                            <li><i class="icofont-check-circled"></i>Stampare il modulo che vedete in questa pagina compilato in ogni sua parte.</li>
-                            <li><i class="icofont-check-circled"></i>Inviare la copia compilata a tes.federtex@gmail.com.</li>
-                            <li><i class="icofont-check-circled"></i>Se non volete utilizzarre la mail, potete inviare il modulo compilato via fax al +39 059 672 165.</li>
-                            <li><i class="icofont-check-circled"></i>Potete anche compilare i campi della tabella che segue e premere "INVIO". La vostra richiesta verra' inviata via mail a Federtex con tutti i campi compilati.</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="assets/img/modulo ordine.PNG" class="img-fluid" alt="">
-                    </div>
-
-                </div>
-
-            </div>
-        </section> <!-- End About Section-->
 
 
         <div class="container">
@@ -130,16 +111,30 @@
 
                 <div class="col-lg-6 pt-4 pt-lg-0">
 
-                    <h3>Modulo d'ordine automatizzato.</h3>
-                    <div style="width: 250px; height: 150px;">
-                        <img src="assets/img/logo_Federtex.PNG" width="100%" height="100%">
-                    </div>
-
+                    <h3>Modulo d'ordine.</h3>
+                    <p class="font-italic">
+                        Da utilizzare per richiedere una coperta.
+                    </p>
+                    <!-- <table>
+                        <tr>
+                            <td>
+                                <div style="width: 250px; height: 150px;">
+                                    <img src="assets/img/logo_Federtex.PNG" width="100%" height="100%">
+                                </div>
+                            </td>
+                            <td>
+                                <h3>Modulo d'ordine.</h3>
+                                <p class="font-italic">
+                                    Da utilizzare per richiedere una coperta.
+                                </p>
+                            </td>
+                        </tr>
+                    </table>-->
 
                     <form name="parere" action="mailto:sgarbi@tsnet.it" method="post" enctype="text/plain">
                         <table border="0" cellspacing="5" cellpadding="5">
                             <tr>
-                                <td>KIT numero:</td>
+                                <td>KIT numero</td>
                                 <td><input type="text" name="Kit numero" size="35" maxlength="40" value=""></td>
                             </tr>
                             <tr>
@@ -153,11 +148,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>quantita':</td>
+                                <td>quantita'</td>
                                 <td><input type="text" name="Quantita" size="35" maxlength="40" value=""></td>
                             </tr>
                             <tr>
-                                <td>prezzo:</td>
+                                <td>prezzo</td>
                                 <td><input type="text" name="Prezzo" size="35" maxlength="40" value=""></td>
                             </tr>
                             <tr>
@@ -165,7 +160,7 @@
                                 <td><textarea name="personalizzazioni" rows="4" cols="30"></textarea></td>
                             </tr>
                             <tr>
-                                <td>CONSEGNA:</td>
+                                <td>CONSEGNA</td>
                                 <td>
                                     <select name="Consegna">
                                         <option selected>indirizzo del KIT</option>
@@ -197,7 +192,7 @@
                             <tr>
                                 <td>Font per le scritte</td>
                                 <td>
-                                    <hr width="50%" align="left">
+                                    <!-- <hr width="50%" align="left">-->
                                     <input type=radio name="font per scritte" value="CORSIVO">&nbsp;CORSIVO<br>
                                     <input type=radio name="font per scritte" value="STAMPATELLO">&nbsp;STAMPATELLO<br>
                                     <hr width="50%" align="left">
@@ -226,6 +221,18 @@
             </div>
         </div>
 
+        <!-- ======= scarica file pdf ======= -->
+        <section class="about" data-aos="fade-up">
+            <div class="container">
+                <p class="font-italic">
+                    Nel caso vi troviate in difficolta' nella compilazione o nell'invio del modulo d'ordine, potete anche utilizzare il seguente procedimento:
+                </p>
+                <ul>
+                    <li><i class="icofont-check-circled"></i> <a href="assets/img/modulo%20ordine.pdf" target="_blank">Stampa il modulo d'ordine in formato PDF.</a></li>
+                    <li><i class="icofont-check-circled"></i>Invia il modulo compilato a: sgarbi@tsnet.it, oppure via FAX al numero +39 059 672 165.</li>
+                </ul>
+            </div>
+        </section> <!-- scarica file pdf-->
 
         <!-- ======= Footer ======= -->
         <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
@@ -254,7 +261,7 @@
                             <h4>Links</h4>
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="about.html">Modulo Ordini</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="ordini.html">Modulo Ordini</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contatti</a></li>
                                 <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>-->
@@ -264,7 +271,7 @@
                         <div class="col-lg-3 col-md-6 footer-links">
                             <h4>I Nostri Servizi</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="about.html">coperte personalizzate</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="ordini.html">coperte personalizzate</a></li>
                                 <!--  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
